@@ -21,10 +21,12 @@ This repository contains the following items:
   * `vehicles_without_uncertainty.ypinb`: this file contains the differente versions of the algorithms that solve the vehicle charging planning problem without considering uncertainty. This is where the implementation of the MILP algorithm used as the basis for the experiments is located.
   * `vehicles_under_uncertainty.ypinb`: this file contains the differente the algorithms that solve the vehicle charging planning problem considering uncertainty. This is where the implementation of the genetic algorithm used in experiments is located.
 * `Robots_algorithms`: this folder contains the file `Robots_algorithms.ypinb`. In this file, we can find the two algorithms implemented to solve the problem of robots in the healthcare domain (The MILP algorithm that does not consider uncertainty and the genetic algorithm that does).
-* * `Data`: in this folder we can find the data files used to run the experiments.
-  * `example_vehicle_objects.txt`: code that contains the data you can modify and add to the algoritms code to conduct experiments. You can copy and paste all the content or part of it directly in the code.
-  * `vehicles.txt` and `patients.txt`: data files used to run the algorithms in some experiments. These are files external to the code.
-  * `evaluation_charts.ypinb`: code used to generate the evaluation charts included in the paper.
+*  `Data`: in this folder we can find the data files used to run the experiments.
+    * `example_vehicle_objects.txt`: code that contains the data you can modify and add to the algoritms code to conduct experiments. You can copy and paste all the content or part of it directly in the code.
+    * `vehicles.txt` and `patients.txt`: data files used to run the algorithms in some experiments. These are files external to the code.
+    
+* `evaluation_charts.ypinb`: code used to generate the evaluation charts included in the paper.
+* `correlation.ypinb`: code used to evaluate the correlation analysis between variables.
 
 ## Running the Experiments
 To run the code, you need to do it within the Google Colab, Jupyter Notebook, or a similar environment. The following explains how to run algorithms in Google Colab:
@@ -82,7 +84,7 @@ The algorithms solving the robot problem are both in file 'Robots_algorithms.ypi
 3. Run the cell containing the main program. The output of this cell displays the planning, the timespan of the solution.
 
 ### Execution of the code to generate the charts
-You can also generate the evaluation charts using the code found in evaluation_charts.ypinb. To achieve this, simply run the cells in order, and various graphs will be displayed as output. If you wish to modify the data to create new graphs, you can do so by editing the data matrices at the beginning of the code that generates each graph.
+You can also generate the evaluation charts using the code found in evaluation_charts.ypinb and correlation.ypinb. To achieve this, simply run the cells in order, and various graphs will be displayed as output. If you wish to modify the data to create new graphs, you can do so by editing the data matrices at the beginning of the code that generates each graph.
 
 ## Using the data files and generate your own input data
 As already shown, there are three files within the 'Data' folder containing sample data for running the algorithms.
