@@ -27,6 +27,7 @@ This repository contains the following items:
     
 * `evaluation_charts.ypinb`: code used to generate the evaluation charts included in the paper.
 * `correlation.ypinb`: code used to evaluate the correlation analysis between variables.
+* `Test_results`: this folder contains other two folders that include the results of the executions for the algorithm tests in the two case studies.
 
 ## Running the Experiments
 To run the code, you need to do it within the Google Colab, Jupyter Notebook, or a similar environment. The following explains how to run algorithms in Google Colab:
