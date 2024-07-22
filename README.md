@@ -1,7 +1,7 @@
 # Automated-Planning-Under-Interacting-Sources-of-Uncertainty
 
 ## Abstract
-
+In smart Cyber-Physical Systems (sCPS), managing task planning under uncertainty is challenging due to the complex interactions between different uncertainties. The paper Automated Planning for Task-Based Cyber-Physical Systems under Interacting Sources of Uncertainty addresses two specific uncertainties: temporal availability constraints, which involve the intermittent availability of system elements, and element reliability, which relates to the probability of system element failures. We propose using genetic algorithms to incorporate these uncertainties into planning, enabling the system to adapt in real time. The method is evaluated in the contexts of electric vehicle charging and healthcare robotics.
 
 ## Dependencies 
 This project tackles the challenge of task planning under conditions of uncertainty, with a specific focus on managing temporal availability constraints. These constraints involve necessary resources being available only during limited time windows. To address this, we present an approach leveraging genetic algorithms to enhance both robustness and efficiency in smart Cyber-Physical Systems (sCPS) scenarios, such as electric vehicle charging and healthcare robotics.
